@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Roboto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul{
     display: flex;
@@ -77,4 +77,33 @@ button{
 }   
 .header-logo img{
     width: 80px;
+}
+.info{
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.box{
+    
+    max-width:130px;
+    height: 85px;
+    border: 3px solid #3882F6 ;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.info-box{
+    
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    
+}
+.info-container{
+    max-width: 200px;
+}
+#pi{
+    max-width: 130px
 }
