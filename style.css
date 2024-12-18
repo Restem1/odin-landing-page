@@ -64,7 +64,7 @@ a {
 .img-placeholder img{
     max-width: 400px;
 }
-button{
+#btn-1{
     font-size: 18px;
     font-weight: 400;
     padding: 8px 16px;
@@ -126,4 +126,46 @@ button{
     font-weight: bold;
     align-self: flex-end;
     
+}
+.cta-body{
+    background: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 8px;
+}
+#btn-2{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 8PX;
+    border: 2px solid white;
+    background-color: #3882F6;
+}
+.cta{
+    padding :130px;
+}
+.text-container{
+    color: #F9FAF8;
+}
+.cta-h2{
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+footer{
+    background: #1F2937;
+    
+    color: #F9FAF8;
+    text-align: center;
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-text{
+    font-size: 18px;
 }
